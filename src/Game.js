@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Dice from "./Dice";
+import ScoreCard from "./ScoreCard";
 
 export default class Game extends Component {
   constructor(props) {
@@ -12,6 +13,7 @@ export default class Game extends Component {
       <div className="Game">
         <h1>Game</h1>
         <Dice />
+        <ScoreCard />
       </div>
     )
   }
