@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Dice from "./Dice";
 import ScoreCard from "./ScoreCard";
+import "./Game.css";
 
 const numDice = 5;
 
