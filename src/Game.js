@@ -21,7 +21,7 @@ export default class Game extends Component {
           <section className="Game-dice-section">
             <Dice />
             <div className="Game-button-wrapper">
-              <button>Rolls Left</button>
+              <button className="Game-reroll">Rolls Left</button>
             </div>
           </section>
         </header>
